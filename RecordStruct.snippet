@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>Record Struct</Title>
+    <Shortcut>recs</Shortcut>
+    <Description>Creates a readonly record struct with file-scoped namespace.</Description>
+    <Author>Trevor</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Record struct name</ToolTip>
+        <Default>MyRecordStruct</Default>
+      </Literal>
+      <Literal>
+        <ID>properties</ID>
+        <ToolTip>Positional parameters</ToolTip>
+        <Default>int X, int Y</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+namespace $namespace$;
+
+public readonly record struct $name$($properties$);
+]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Allow directories (so Git can track folder structure)
+!*/
+
+# Allow snippet files
+!*.snippet

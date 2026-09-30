@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>Record Class</Title>
+    <Shortcut>recc</Shortcut>
+    <Description>Creates a record class with file-scoped namespace.</Description>
+    <Author>Trevor</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Record name</ToolTip>
+        <Default>MyRecord</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[
+namespace $namespace$;
+
+public record $name$
+{
+    $end$
+}
+]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
